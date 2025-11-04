@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+
+# Generated app output
+src/dist/
+src/build/
