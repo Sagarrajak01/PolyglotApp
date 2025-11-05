@@ -1,34 +1,14 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-
-# Virtual environments
-venv/
-env/
-.venv/
-
-# PyInstaller build files
+echo "__pycache__/
 build/
 dist/
 *.spec
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# Logs and temp
+*.pyc
+*.pyo
+*.pyd
 *.log
-*.tmp
-*.bak
-
-# Editor and IDE files
-.vscode/
+polyglot_files/
+venv/
+env/
 .idea/
-*.swp
-
-# Generated app output
-src/dist/
-src/build/
+.vscode/
+" > .gitignore
