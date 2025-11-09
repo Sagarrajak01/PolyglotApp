@@ -117,7 +117,7 @@ This `.exe` can run on any **Windows 64-bit** system — **no Python required**.
 
 ---
 
-## 🗃️ Data Storage
+##  Data Storage
 
 * All saved polyglots are indexed in:
 
