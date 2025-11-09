@@ -1,21 +1,21 @@
-# 🧩 Polyglot File Manager
+#  Polyglot File Manager
 
 A simple, cross-platform desktop application built with **Python** and **Tkinter** to create, view, and search **Polyglot files** — paired `.jpg` and `.txt` files that are linked together for image–text management.
 
 ---
 
-## 📘 Features
+##  Features
 
-* 🖼️ **Create Polyglot Files:** Combine an image with custom text and save both together.
-* ✏️ **Custom Filename:** Choose your own filename before saving.
-* 🔍 **Search Functionality:** Instantly find any saved polyglot by keyword or ID.
-* 👁️ **View Mode:** Check existing polyglots side-by-side (image + text).
-* 🗑️ **Clean Storage:** Automatically maintains a JSON index of all saved files.
-* 💾 **Standalone Windows App:** Build into a single `.exe` for easy sharing — no Python required.
+*  **Create Polyglot Files:** Combine an image with custom text and save both together.
+*  **Custom Filename:** Choose your own filename before saving.
+*  **Search Functionality:** Instantly find any saved polyglot by keyword or ID.
+*  **View Mode:** Check existing polyglots side-by-side (image + text).
+*  **Clean Storage:** Automatically maintains a JSON index of all saved files.
+*  **Standalone Windows App:** Build into a single `.exe` for easy sharing — no Python required.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 Each **Polyglot File** is stored as:
 
@@ -29,7 +29,7 @@ The application tracks them automatically inside an internal JSON index for quic
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 Polyglot-v3/
@@ -47,7 +47,7 @@ Polyglot-v3/
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 * **Python 3.10+**
 * Dependencies (auto-installed from `requirements.txt`):
@@ -63,7 +63,7 @@ Polyglot-v3/
 
 ---
 
-## ▶️ Run Locally (Development Mode)
+##  Run Locally (Development Mode)
 
 ```bash
 python main.py
@@ -71,7 +71,7 @@ python main.py
 
 ---
 
-## 💾 Build Windows Executable
+##  Build Windows Executable
 
 To package as a portable `.exe`:
 
@@ -95,7 +95,7 @@ This `.exe` can run on any **Windows 64-bit** system — **no Python required**.
 
 ---
 
-## 🧩 App Usage
+##  App Usage
 
 ### 1. Create a Polyglot File
 
@@ -128,7 +128,7 @@ This `.exe` can run on any **Windows 64-bit** system — **no Python required**.
 
 ---
 
-## 🪜 Maintenance Commands
+##  Maintenance Commands
 
 If the index ever gets corrupted or files are moved:
 
@@ -141,12 +141,12 @@ This will rebuild your index from the `polyglot_files` directory.
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * The `.exe` must remain in the same directory as your app data if you plan to use persistent indexing.
 * Avoid renaming `.jpg` or `.txt` files manually; use the app to keep them synced.
 ---
 
-## 🧪 License
+##  License
 
 This project is released under the **MIT License** — free for personal and educational use.
